@@ -3,3 +3,8 @@ plugins {
 }
 rootProject.name = "kotlin-2-bug"
 
+include(
+    ":child-project",
+    ":project",
+)
+
